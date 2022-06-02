@@ -1,28 +1,28 @@
 var questions = [
     {
-        text: "A very useful tool used during development and debugging for printing content to the",
+        text: "A very useful tool used during development and debugging for printing content to the debugger is?",
         answers: ["JavaScript", "for loops", "console.log", "terminal/bash"],
-        correctAnswer: "console.log"
+        correctAnswer: "for loops"
     },
     {
-        text: "A very useful tool used during development and debugging for printing content to the",
-        answers: ["JavaScript", "for loops", "console.log", "terminal/bash"],
-        correctAnswer: "console.log"
+        text: "The condition in an if / else statement is enclosed with _______?",
+        answers: ["quotes" , "curly brackets" , "parenthesis" , "square brackets"],
+        correctAnswer: "parenthesis"
     },
     {
-        text: "A very useful tool used during development and debugging for printing content to the",
-        answers: ["JavaScript", "for loops", "console.log", "terminal/bash"],
-        correctAnswer: "console.log"
+        text: "Commonly used data types DO NOT include?",
+        answers: ["strings" , "booleans" , "alerts" , "numbers"],
+        correctAnswer: "booleans"
     },
     {
-        text: "A very useful tool used during development and debugging for printing content to the",
-        answers: ["JavaScript", "for loops", "console.log", "terminal/bash"],
-        correctAnswer: "console.log"
+        text: " String values must be enclosed within _______ when being assigned a variable.",
+        answers: ["commas" , "curly brackets" , "quotes" , "parenthesis"],
+        correctAnswer: "curly brackets"
     },
     {
-        text: "A very useful tool used during development and debugging for printing content to the",
-        answers: ["JavaScript", "for loops", "console.log", "terminal/bash"],
-        correctAnswer: "console.log"
+        text: "Arrays in JavaScript can be used to store _______ ?",
+        answers: ["numbers and strings" , "other arrays" , "booleans" , "all of the above"],
+        correctAnswer: "all of the above"
     }
 ];
 

@@ -1,3 +1,161 @@
-body{
+h2, h3{
+    margin: 2px 0 2px 0;
+}
+
+button {
+    margin: 2.5px;
+    background-color: #48427e;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 0 0 0 20px;
+    font-weight: bold;
+}
+
+body {
+    flex: auto;
     font-family: sans-serif;
+    width: 90%;
+    height: 400px;
+    margin: 50px 30px 50px 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 30px 30px 0 30px;
+}
+
+header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.cqc {
+    text-align: center;
+    padding: 0 100px 0 100px;
+}
+
+#startButton {
+ text-align: center;
+ padding: 0%;
+}
+
+.Q {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: solid rgb(221, 220, 220) 3px;
+    padding: 0 200 0 0;
+}
+
+#a,#b,#c,#d {
+    margin: 2.5px;
+    background-color: #48427e;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 0 0 0 20px;
+}
+
+#answer {
+    font-style: italic;
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+#quizPage {
+    font-size: 20px;
+    padding: 0 125px 0 175px;
+    text-align: left;
+}
+
+#start {
+    padding: 80px;
+}
+
+#question.header {
+    padding: 50px 100px 0 0;
+}
+
+#question {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 85px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+#tblHighscore {
+    margin: 100px 200px 0 275px;
+}
+
+#fname {
+    width: 100%;
+}
+
+.scoreBtn2 {
+    /* margin: 2.5px;
+    background-color: #48427e;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 10px;
+    height: 30px;
+    width: 180px;
+    padding: 0 0 0 20px; */
+}
+
+.scoreBtn1 {
+    /* margin: 2.5px;
+    background-color: #48427e;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 10px;
+    height: 30px;
+    width: 100px;
+    padding: 0 0 0 20px; */
+}
+
+#allDone {
+    padding: 100px 0 100px 200px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    float: left;
+    justify-content: space-evenly;
+    size: 800px;
+}
+
+#addinitials {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.scoreBtn3 {
+    /* background-color: #48427e;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 10px;
+    height: 30px;
+    width: 100px; */
 }

@@ -11,29 +11,30 @@
 
 <body>
     <header>
-        <a href="" id="not sure yet">View High Scores</a>
-        <div>
-            Time remaining:
-            <span id="time"></span>
+        <a href="" id="highScores">View High Scores</a>
+        <div id="time">
+            Time:
         </div>
     </header>
     <main>
         <div id="start">
-            <Section>
-                <h1 class="header">Coding Quiz Challenge</h1>
-                <p class="paragraph">Try to answer the following code related questions within the following time limit.
+            <Section class="cqc">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code related questions within the following time limit.
                     Keep in mind that incorrect answers will hurt your score time by 10 seconds!</p>
                 <button id="startButton">Start Quiz</button>
             </Section>
         </div>
         <div id="quizPage">
-            <Section class="Q">
+            <Section>
                 <h1 class="header" id="question"></h1>
-                <button class="answer" id="a"></button>
-                <button class="answer" id="b"></button>
-                <button class="answer" id="c"></button>
-                <button class="answer" id="d"></button>
-                <p id="answer"></p>
+                <div class="Q">
+                    <button class="answer" id="a"></button>
+                    <button class="answer" id="b"></button>
+                    <button class="answer" id="c"></button>
+                    <button class="answer" id="d"></button>
+                </div>
+                <p id="answer">answer</p>
             </Section>
 
         </div>
@@ -41,13 +42,18 @@
             <Section>
                 <p class="score"></p>
                 <p class="initials"></p>
-                <button class="saveBtn">Save</button>
             </Section>
             <section id="tblHighscore">
-                <h1 class="header">High Scores</h1>
-
+                <h1 class="header">View High Scores</h1>
+                <form action="/action_page.php">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                </form>
+                <button class="scoreBtn1">Go back</button>
+                <button class="scoreBtn2">Clear high scores</button>
             </section>
         </div>
+       
 
     </main>
     <script src="js/script.js"></script>
@@ -55,3 +61,19 @@
 </body>
 
 </html>
+
+<!-- <label for="Name">Last Name:</label> -->
+  <!-- <input name="last_name" id="Last_Name" type="text" />  -->
+
+<!-- <div id="allDone">
+    <>All done!</>
+    < id="gametally">Your final score is:</>             
+    <section id="addinitials">
+        <>Enter initials:</>
+        <div class="?">
+            <label for="Initials">Initials:</label>
+            <input initials="initials" id="initials" type="text" /> 
+        </div>
+        <button class="scoreBtn3">Submit</button>
+    </section>
+</div> -->

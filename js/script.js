@@ -1,6 +1,6 @@
 var score = 0;
 var questionNumber = 0;
-var timer = 60;
+var timer = 30;
 var interval;
 
 document.getElementById("quizPage").style.display = "none";
@@ -9,7 +9,7 @@ document.getElementById("highScore").style.display = "none";
 function start() {
     score = 0;
     questionNumber = 0;
-    timer = 60;
+    timer = 30;
     document.getElementById("start").style.display = "none";
     document.getElementById("quizPage").style.display = "block";
     interval = setInterval("updateTimer()", 1000);
@@ -18,11 +18,11 @@ function start() {
 }
 
 function updateTimer() {
-    document.getElementById("time").innerHTML = timer;
+    document.getElementById("time").innerHTML = "Time:" + timer;
     timer--;
     if (timer < 0) {
         clearInterval(interval);
-        endQuiz();
+        // endQuiz();
     }
 }
 
@@ -54,10 +54,10 @@ function checkAnswer() {
     }
 }
 
-function endQuiz(){
-    document.getElementById ("quizPage").style.display="none";
-    document.getElementById ("highScore").style.display="block";
-    document.getElementById ("score").innerHTML="Score: " + score + "/" + questions.length;
+function endQuiz() {
+    document.getElementById("quizPage").style.display = "none";
+    document.getElementById("highScore").style.display = "block";
+    document.getElementById("score").innerHTML = "Score: " + score + "/" + questions.length;
 }
 
 document.getElementById("a").addEventListener("click", checkAnswer);
