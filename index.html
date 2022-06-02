@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CodeQuiz</title>
+</head>
+
+<body>
+    <header>
+        <a href="" id="not sure yet">View High Scores</a>
+        <div>
+            Time remaining:
+            <span id="time"></span>
+        </div>
+    </header>
+    <main>
+        <div id="start">
+            <Section>
+                <h1 class="header">Coding Quiz Challenge</h1>
+                <p class="paragraph">Try to answer the following code related questions within the following time limit.
+                    Keep in mind that incorrect answers will hurt your score time by 10 seconds!</p>
+                <button id="startButton">Start Quiz</button>
+            </Section>
+        </div>
+        <div id="quizPage">
+            <Section class="Q">
+                <h1 class="header" id="question"></h1>
+                <button class="answer" id="a"></button>
+                <button class="answer" id="b"></button>
+                <button class="answer" id="c"></button>
+                <button class="answer" id="d"></button>
+                <p id="answer"></p>
+            </Section>
+
+        </div>
+        <div id="highScore">
+            <Section>
+                <p class="score"></p>
+                <p class="initials"></p>
+                <button class="saveBtn">Save</button>
+            </Section>
+            <section id="tblHighscore">
+                <h1 class="header">High Scores</h1>
+
+            </section>
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/questions.js"></script>
+</body>
+
+</html>
