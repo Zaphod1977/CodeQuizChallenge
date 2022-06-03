@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <a href="" id="highScores">View High Scores</a>
+        <div id="vhs">View High Scores</div>
         <div id="time">
             Time:
         </div>
@@ -38,22 +38,27 @@
             </Section>
 
         </div>
-        <div id="highScore">
-            <Section>
-                <p class="score"></p>
-                <p class="initials"></p>
-            </Section>
-            <section id="tblHighscore">
-                <h1 class="header">View High Scores</h1>
-                <form action="/action_page.php">
-                    <label for="fname"></label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                </form>
-                <button class="scoreBtn1">Go back</button>
-                <button class="scoreBtn2">Clear high scores</button>
+        <div id="allDone">
+            <h2>All done!</h2>
+            <p id="score">Your final score is:</p>
+            <section id="addinitials">
+                <!-- <h2>Enter initials:</h2> -->
+                <div class="initials">
+                    <label for="Initials">Initials:</label>
+                    <input id="initials" type="text" />
+                </div>
+                <button id="submit">Submit</button>
             </section>
         </div>
-       
+        <div id="highScore">
+            <section id="tblHighscore">
+                <h1 class="header">View High Scores</h1>
+                <div id="hscore"></div>
+                <button id="back">Go back</button>
+                <button id="clear">Clear high scores</button>
+            </section>
+        </div>
+
 
     </main>
     <script src="js/script.js"></script>
@@ -61,19 +66,3 @@
 </body>
 
 </html>
-
-<!-- <label for="Name">Last Name:</label> -->
-  <!-- <input name="last_name" id="Last_Name" type="text" />  -->
-
-<!-- <div id="allDone">
-    <>All done!</>
-    < id="gametally">Your final score is:</>             
-    <section id="addinitials">
-        <>Enter initials:</>
-        <div class="?">
-            <label for="Initials">Initials:</label>
-            <input initials="initials" id="initials" type="text" /> 
-        </div>
-        <button class="scoreBtn3">Submit</button>
-    </section>
-</div> -->

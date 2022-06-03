@@ -109,28 +109,17 @@ header {
     width: 100%;
 }
 
-.scoreBtn2 {
-    /* margin: 2.5px;
-    background-color: #48427e;
-    color: white;
-    text-align: left;
-    border-radius: 6px;
-    font-size: 10px;
-    height: 30px;
-    width: 180px;
-    padding: 0 0 0 20px; */
+.indent {
+    padding-left: 20px;
 }
 
-.scoreBtn1 {
-    /* margin: 2.5px;
-    background-color: #48427e;
-    color: white;
-    text-align: left;
-    border-radius: 6px;
-    font-size: 10px;
-    height: 30px;
-    width: 100px;
-    padding: 0 0 0 20px; */
+.space {
+    padding: 0 10px;
+}
+
+#vhs {
+    text-decoration: underline;
+    color: blue;
 }
 
 #allDone {
@@ -148,14 +137,4 @@ header {
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
-}
-
-.scoreBtn3 {
-    /* background-color: #48427e;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 10px;
-    height: 30px;
-    width: 100px; */
 }
