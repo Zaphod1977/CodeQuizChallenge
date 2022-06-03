@@ -13,6 +13,11 @@ button {
     width: 200px;
     padding: 0 0 0 20px;
     font-weight: bold;
+    transition-duration: 0.5;
+}
+
+button:active {
+    background-color: #767395;
 }
 
 body {
@@ -49,18 +54,6 @@ header {
     padding: 10px;
     border-bottom: solid rgb(221, 220, 220) 3px;
     padding: 0 200 0 0;
-}
-
-#a,#b,#c,#d {
-    margin: 2.5px;
-    background-color: #48427e;
-    color: white;
-    text-align: left;
-    border-radius: 6px;
-    font-size: 10px;
-    height: 30px;
-    width: 200px;
-    padding: 0 0 0 20px;
 }
 
 #answer {

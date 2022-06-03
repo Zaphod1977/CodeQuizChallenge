@@ -1,6 +1,6 @@
 var score = 0;
 var questionNumber = 0;
-var timer = 30;
+var timer = 60;
 var interval;
 
 document.getElementById("quizPage").style.display = "none";
@@ -11,7 +11,7 @@ document.getElementById("allDone").style.display = "none";
 function start() {
     score = 0;
     questionNumber = 0;
-    timer = 30;
+    timer = 60;
     document.getElementById("start").style.display = "none";
     document.getElementById("quizPage").style.display = "block";
     interval = setInterval("updateTimer()", 1000);
@@ -44,7 +44,7 @@ function checkAnswer() {
     }
     else {
         document.getElementById("answer").innerHTML = "incorrect";
-        timer -= 5;
+        timer -= 10;
     }
     questionNumber++;
     if (questionNumber < questions.length) {
@@ -60,6 +60,7 @@ function endQuiz() {
     document.getElementById("quizPage").style.display = "none";
     document.getElementById("allDone").style.display = "block";
     document.getElementById("score").innerHTML = "Your final score is: " + score + "/" + questions.length;
+    document.getElementById("answer").innerHTML = "answer";
 }
 
 function submit() {
