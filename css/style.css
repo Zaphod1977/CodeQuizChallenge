@@ -131,3 +131,10 @@ header {
     justify-content: space-between;
     vertical-align: middle;
 }
+
+#hscore {
+    border: solid 1.3px;
+    border-color: black;
+    background-color: lightgray;
+    border-radius: 6px;
+}
