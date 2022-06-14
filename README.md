@@ -31,6 +31,7 @@ GIVEN I am taking a code quiz
 
 ## Mock-Up
 The following animation demonstrates the application functionality:
-!.[](./images/04-web-apis-homework-demo.gif)
+
+![](./images/04-web-apis-homework-demo.gif)
 
 
